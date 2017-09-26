@@ -1,0 +1,15 @@
+[user]
+	name = oliverke
+	email = oliver.ke@prismtech.com
+[color]
+	ui = true
+[core]
+	editor = vim
+[alias]
+	br = branch
+	st = status
+	co = checkout
+	ci = commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = matching
