@@ -138,3 +138,5 @@ function git_since_last_commit {
 
 #PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ "
 export PS1='\u@\h \[\033[01;36m\]\w\[\033[01;32m\]$(git_branch)\[\033[00m\]\[\033[0;33m\] $(git_since_last_commit)\[\033[0m\]\$ '
+export RLM_LICENSE=5053@licsrv-adlink.prismtech.com
+source ~/ADLINK/EdgeSDK/1.3.0/config_env_variables.com

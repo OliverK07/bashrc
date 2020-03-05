@@ -1,0 +1,30 @@
+---
+BasedOnStyle: Google
+AccessModifierOffset: '-3'
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: 'true'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLoopsOnASingleLine: 'false'
+BreakBeforeBraces: Allman
+ColumnLimit: '120'
+IndentCaseLabels: 'true'
+IndentWidth: '3'
+IncludeCategories:
+  - Regex:           '^<.*\.h>'
+    Priority:        1
+  - Regex:           '^<.*'
+    Priority:        2
+  - Regex:           '.*'
+    Priority:        3
+Language: Cpp
+ObjCBlockIndentWidth: '3'
+SpaceBeforeParens: Always
+SpacesBeforeTrailingComments: '3'
+SpacesInAngles: 'true'
+SpacesInContainerLiterals: 'false'
+Standard: Cpp11
+TabWidth: '3'
+UseTab: Never
+ 
+...

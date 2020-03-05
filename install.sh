@@ -28,6 +28,7 @@ log_info "setting up symlinks..."
 soft_link $CURRENT_DIR/bashrc $HOME/.bashrc
 soft_link $CURRENT_DIR/bash_profile $HOME/.bash_profile
 soft_link $CURRENT_DIR/gitconfig $HOME/.gitconfig
+soft_link $CURRENT_DIR/clang-format $HOME/.clang-format
 #soft_link $CURRENT_DIR/vim $HOME/.vim
 
 log_info "source bashrc..."
